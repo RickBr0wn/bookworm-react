@@ -6,7 +6,7 @@ import HomePage from './Components/HomePage'
 import LoginPage from './Components/LoginPage'
 
 const App = props => 
-  <div>
+  <div className="ui container">
     <Route exact path="/" component={HomePage} />
     <Route exact path="/login" component={LoginPage} />
   </div>
